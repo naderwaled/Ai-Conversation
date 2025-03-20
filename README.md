@@ -41,7 +41,7 @@
         http://<your-supabase-url>/functions/v1/addConversationData
         ```
       - Replace `<your-supabase-url>` with your actual Supabase URL.
-      - After Deploying the Supabase Function, Go to function Details and disable "Enforce JWT Verification"
+
 
      **Configure the Webhook:**
      - In the ElevenLabs project settings, ensure that the webhook is set to trigger on the desired events, such as "Post-Call Webhook".
@@ -64,6 +64,7 @@
      ```
 
    - This will set up the necessary table to store conversation data.
+   - After Deploying the Supabase Function, Go to function Details and disable "Enforce JWT Verification"
 
 ## Technologies Used
 - **React,Next.Js**: For building the user interface.
