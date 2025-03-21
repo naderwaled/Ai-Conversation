@@ -12,7 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>xBites AI Conversation</title>
+        <title>AI Conversation</title>
         <meta name="description" content="Chat with AI powered by ElevenLabs" />
       </head>
       <body>
